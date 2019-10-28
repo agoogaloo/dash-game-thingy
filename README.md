@@ -1,4 +1,5 @@
-# dash-game-thingy
+# Dash Game Thingy
+
 
 
 ## About:
@@ -8,7 +9,8 @@
 - if you have suggestions or find bugs or something like that it would be cool if you e-mailed me at aguy24601@gmail.com
 
 
-## patch notes:
+
+## Patch notes:
 
 ### 0.0.1
 -fixed frame rate accuracy 
