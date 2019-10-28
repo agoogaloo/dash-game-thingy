@@ -1,0 +1,15 @@
+55 13
+4 11
+c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c 
+c  DR d1 d2 d1 d2 d2 d1 d2 d1 d2 d2 d1 d2 d2 d1 d2 d1 d2 d2 d1 d2 d1 d2 d1 d2 d2 d1 d2 d1 d2 d2 d1 d2 d2 d1 d2 d1 d2 d2 d2 d1 d2 d1 d2 d2 d1 d2 d1 d2 d1 d1 d2 d2 DL
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  ul u2 u2 u1 ur 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  l  c  c  c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  r  0  0  0  0  0  0  0  0  0  l  c  c  c  r  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  l
+c  UR u2 u1 u2 u2 u2 u1 u1 u2 u2 UL c  c  c UR u2 u1 u2 u1 u2 u1 u2 u2 u2 u1 u1 u2 u2 u1 u1 u2 u1 u2 u1 u2 u2 u2 u1 u1 u2 u1 u1 u2 u1 u2 u2 u1 u2 u1 u2 u2 u1 u2 UL
+c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c  c 
