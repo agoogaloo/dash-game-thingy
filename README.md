@@ -1,20 +1,20 @@
 # dash-game-thingy
-##About:
+## About:
 
 - this is a game I'm currently making where your only movement is dashing a set distance 
 - it still in development so it is pretty bad right now 
 - if you have suggestions or find bugs or something like that it would be cool if you e-mailed me at aguy24601@gmail.com
 ***
-##patch notes:
+## patch notes:
 
-###0.0.1
+### 0.0.1
 -fixed frame rate accuracy 
 -hitbox is lower while dashing
 -you can update just the code so you don’t need to reinstall java everytime
 -dashing animation is different
 -you don’t need to click on the water tile to start the game because that doesn’t make sense 
 ***
-###0.1.0
+### 0.1.0
 -new, better tileset that isn’t top-down and weird
 -a background. I guess there sort of was one before but this one’s better
 -new level layout
@@ -25,7 +25,7 @@
 -there isn’t a gap when you dash into walls on the right
 -probably several other things I forgot
 ***
-##Things coming to a update near you so potential spoilers I guess:
+## Things coming to a update near you so potential spoilers I guess:
 
 -knockback that doesn’t send you through walls
 -different up,down,and dashing attacks
