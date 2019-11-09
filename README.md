@@ -49,6 +49,6 @@
 - only being able to jump on the ground
 - upgrades
 - main area that you always return to
-- Actually good levels and enemies
+- actually good levels and enemies
 - projectiles
 - other things I forgot to mention
