@@ -7,7 +7,7 @@
 - this is a game I'm currently making where your only movement is dashing a set distance 
 - it still in development so it is pretty bad right now 
 - if you have suggestions or find bugs or something like that it would be cool if you e-mailed me at aguy24601@gmail.com
-- can also be doloaded from google drve at https://docs.google.com/document/d/13sJuaXpwxKoMHnAqrqyITfRKGYHoiJYgRON9p_JQ7ec/edit?usp=sharing
+- can also be downloaded from google drve at https://drive.google.com/drive/folders/1ZxgdZufnqDnJOpfGvBBCgn2T6iaTX_lA?usp=sharing
 
 
 ## Patch notes:
