@@ -11,9 +11,8 @@ public abstract class Entity {
 	protected String CLASS;
 	protected boolean killed=false,destructible = true;
 	protected float x, y;
-	protected int width, height,health,xKnockback=0,yKnockback=0;
+	protected int width, height,health,xKnockback=0,yKnockback=0,stun,iFrames=0;
 	protected Rectangle bounds;
-	protected float stun;
 	
 	public Entity(float x, float y, int width, int height) {
 		this.health=DEFAULT_HP;
@@ -24,11 +23,22 @@ public abstract class Entity {
 		this.bounds = new Rectangle(0,0,width,height);
 		
 	}
-	public void getHit(int damage, int xKnockback, int yKnockback,float stun) {
+	public void getHit(int damage, int xKnockback, int yKnockback,int stun) {
 		health-=damage;
 		this.xKnockback=xKnockback;
 		this.yKnockback=yKnockback;
 		this.stun=stun;
+		iFrames=5;
+		if(destructible&&health<=0) {
+			EntityManager.killEntity(this);
+		}
+	}
+	public void getHit(int damage, int xKnockback, int yKnockback,int stun,int iFrames) {
+		health-=damage;
+		this.xKnockback=xKnockback;
+		this.yKnockback=yKnockback;
+		this.stun=stun;
+		this.iFrames=iFrames;
 		if(destructible&&health<=0) {
 			EntityManager.killEntity(this);
 		}

@@ -115,7 +115,7 @@ public class Level {
 	public void nextLevel() {
 		id++;
 		if (id>2) {
-			id=2;
+			id=1;
 		}
 		load(id);
 	}

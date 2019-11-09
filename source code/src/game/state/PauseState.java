@@ -38,6 +38,7 @@ public class PauseState extends States {
 				break;
 			case 2:
 				GameState.showHitBox=!GameState.showHitBox;
+				break;
 			case 3:
 				GameState.level.load(1);
 				break;

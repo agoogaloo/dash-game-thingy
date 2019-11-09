@@ -24,7 +24,7 @@ public class Player extends Creature {
 	private boolean moving = false,dashAttack=false,attacking=false;
 	private float dashLocX, dashLocY, dashTime = 6f, checkX, checkY, gravitySpeed = 0;
 	private Animation currentAnimation;
-	private int invincible=0,attackTime=0,picXOffset,picYOffset;
+	private int attackTime=0,picXOffset,picYOffset;
 	//private Rectangle hitbox2 = new Rectangle((int)(x-20),(int)(y-13),42,44);
 	private int sendMessage = 0;
 	private int maxHeath=3;
@@ -156,9 +156,9 @@ public class Player extends Creature {
 	private void entityResponse() {
 		ArrayList<String> entities = entityCollide(0, 0);
 		
-		if (entities.contains("bat")&&invincible<=0) {
+		if (entities.contains("bat")&&iFrames<=0) {
 			health--;
-			invincible=40;
+			iFrames=40;
 			moving=false;
 			if(direction=='r') {
 				getHit(0,-17,-15,30);
@@ -247,8 +247,8 @@ public class Player extends Creature {
 		if (stun > 0) {
 			stun --;
 		}
-		if (invincible > 0) {
-			invincible--;
+		if (iFrames > 0) {
+			iFrames--;
 		}
 		
 		// sending things to console
@@ -305,9 +305,9 @@ public class Player extends Creature {
 				}
 				if(hitbox.intersects(i.getMovingBounds(0, 0))) {
 					if(direction=='r') {
-						i.getHit(1,30,-10,20);
+						i.getHit(1,30,-10,25);
 					}else {
-						i.getHit(1,-30,-10,20);
+						i.getHit(1,-30,-10,25);
 					}
 				}
 			}
@@ -489,11 +489,18 @@ public class Player extends Creature {
 		}
 	}
 	@Override
-	public void getHit(int damage, int xKnockback, int yKnockback,float stun) {
+	public void getHit(int damage, int xKnockback, int yKnockback,int stun) {
 		health-=damage;
 		this.xKnockback=xKnockback;
 		this.yKnockback=yKnockback;
 		this.stun=stun;
+	}
+	public void getHit(int damage, int xKnockback, int yKnockback,int stun, int iFrames) {
+		health-=damage;
+		this.xKnockback=xKnockback;
+		this.yKnockback=yKnockback;
+		this.stun=stun;
+		this.iFrames=iFrames;
 	}
 	private void getInput() {
 		inputs.clear();
