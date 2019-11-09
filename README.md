@@ -30,15 +30,25 @@
 - there isn’t a gap when you dash into walls on the right
 - probably several other things I forgot
 
-## Things coming to a update near you so potential spoilers I guess:
 
-- knockback that doesn’t send you through walls
-- different up,down,and dashing attacks
-- tiles that fit together properly attach so there isn’t random gaps everywhere
-- different levels
+### 0.2.0
+- dash attacks
+- a pause menu/level select
+- levels
+- a different background so you can actually see your attacks
+- hitboxes aren’t visible anymore (unless you want them to)
+- a different icon
+- changed some hit stun and knockback on the attacks
+- you can die if you get hit 3 times
+- tiles connect to each other better so everything looks more fluid
+
+
+## Things coming to a update near you so potential spoilers I guess:
 - sounds
-- menus
 - saves
-- game overs/being able to die
 - only being able to jump on the ground
+- upgrades
+- main area that you always return to
+- Actually good levels and enemies
+- projectiles
 - other things I forgot to mention
