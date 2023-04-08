@@ -6,6 +6,7 @@
 
 - this is a game I started where your only movement is dashing a set distance
 - it never really got very far, and wasn't that fun so I don't think I'm ever going to finish it
+- for some reason I put the releases in a dirve folder here https://drive.google.com/drive/folders/1ZxgdZufnqDnJOpfGvBBCgn2T6iaTX_lA?usp=sharing instead of actually making a release if you want to try it
 
 
 ## Patch notes:
