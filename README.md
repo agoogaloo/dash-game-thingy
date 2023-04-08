@@ -4,10 +4,8 @@
 
 ## About:
 
-- this is a game I'm currently making where your only movement is dashing a set distance 
-- it still in development so it is pretty bad right now 
-- if you have suggestions or find bugs or something like that it would be cool if you e-mailed me at aguy24601@gmail.com
-- can also be downloaded from google drve at https://drive.google.com/drive/folders/1ZxgdZufnqDnJOpfGvBBCgn2T6iaTX_lA?usp=sharing
+- this is a game I started where your only movement is dashing a set distance
+- it never really got very far, and wasn't that fun so I don't think I'm ever going to finish it
 
 
 ## Patch notes:
